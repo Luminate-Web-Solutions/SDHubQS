@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  .mat-mdc-progress-bar {
+    --mdc-linear-progress-active-indicator-color: #2e53aa;
+  }
+  
+  .mat-mdc-raised-button.mat-primary {
+    background-color: #2e53aa;
+  }
+  
+  .mat-mdc-icon-button.mat-primary {
+    color: #2e53aa;
+  }
